@@ -33,7 +33,7 @@ public class copypaste {
 		driver.findElement(By.name("firstName")).click();
 		a.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).build().perform();
 		System.out.println("data paste into the firstname");
-		driver.close();
+		driver.quit();
 		}
 
 }
