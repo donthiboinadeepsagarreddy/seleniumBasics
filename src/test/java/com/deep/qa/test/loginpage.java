@@ -21,6 +21,6 @@ public class loginpage {
 	driver.findElement(By.xpath("//input[@type=\"submit\"]")).click();
 	driver.findElement(By.xpath("//img[@alt=\"Logout\"]")).click();
 	System.out.println("sss");
-	driver.quit(); 
+	driver.close(); 
 }
 }
